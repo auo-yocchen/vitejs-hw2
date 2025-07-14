@@ -15,7 +15,7 @@ onMounted(() => {
 
 <template>
   <nav class="flex gap-2">
-    <RouterLink to="/getUbikeData" class="btn">查詢</RouterLink>
+    <RouterLink to="/getUbikeData"></RouterLink>
   </nav>
   <main>
     <RouterView />
